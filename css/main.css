@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+#header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(27, 27, 50);
+    width: 100%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: sticky;
+    top: 0;
+    z-index: 10000;
+}
+#header-img{
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+}
+#nav-bar ul{
+    display: flex;
+}
+#nav-bar ul li{
+    margin: 0 15px;
+    font-weight: 400;
+    border-bottom: 1px solid rgb(247, 115, 185);
+    padding-bottom: 5px;
+}
+#main{
+    background-image: linear-gradient(70deg,#2d5f7a5d,rgb(27, 27, 50));
+}
+#servicios{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.articleProcesos{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: justify;
+    padding: 20px;
+}
+.articleProcesos h3{
+    font-weight: 500;
+    font-size: 1.2rem;
+    color: rgb(41, 41, 102);
+}
+.articleProcesos p{
+    color: #fff;
+    font-size: 0.8rem;
+}
+.articleProcesos i{
+    font-size: 1.2rem;
+    padding: 8px;
+    border: 1px solid #e4e2d2;
+    border-radius: 50%;
+    background-color: #f0efec;
+    color: rgb(41, 41, 102);
+}
+.negrita{
+    font-weight: 600;
+    color: rgb(247, 115, 185);
+}
+#Video{
+    width: 400px;
+    max-width: 500px;
+}
+#tamañoVideo{
+    margin-top: 20px;
+}
+#nosotros{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    margin-top: 4rem;
+    padding: 10px;
+}
+#nosotros h1{
+    color: rgb(57, 57, 138);
+    font-size: 2rem;
+    font-weight: 500;
+    border-top: 3px solid rgb(247, 115, 185);
+}
+#nosotros p{
+    margin-top: 10px;
+    font-size: 1rem;
+    color: #fff;
+}
+#contacto{
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+#contacto h4{
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: rgb(247, 115, 185);
+    background-color: rgb(41, 41, 102);
+    padding: 5px 15px;
+    border-radius: 2rem;
+}
+#form{
+    background-color: rgba(27, 27, 50, 0.8);
+    padding: 2.5rem;
+    margin: 1rem;
+    border-radius: 0.25rem;
+    width: 90%;
+    max-width: 30rem;
+    color: #fff;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.form-group{
+    margin: 0 auto 1.25rem auto;
+    padding: 0.25rem;
+}
+label{
+    display: flex;
+    align-items: center;
+    font-size: 1.125rem;
+    margin-bottom: 0.5rem;
+}
+.form-control{
+    display: block;
+    width: 100%;
+    height: 2.375rem;
+    padding: 0.375rem 0.75rem;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+}
+.submit-button{
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    background-color: rgb(247, 115, 185);
+    color: inherit;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+button{
+    border: none;
+}
+input, button{
+    font-family: inherit;
+    font-size: inherit;
+}
+#footer{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #fff;
+    background-color: rgb(27, 27, 50);
+    height: 9rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media only screen and (min-width:822px){
+    .articleProcesos h3{
+        font-size: 1.5rem;
+    }
+    .articleProcesos p{
+        font-size: 1rem;
+    }
+    #nosotros p{
+        width: 80%;
+    }
+}
